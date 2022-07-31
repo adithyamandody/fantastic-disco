@@ -1,14 +1,16 @@
-import React from "react";
-import Header from "./Header";
-import Footer from "./Footer";
-import "bootstrap/dist/css/bootstrap.min.css";
-import homeImage from "../../assets/home-img.png";
+import React from 'react';
+import Header from './Header';
+import Footer from './Footer';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Item from './Item';
+import Minter from './Minter';
 
 function App() {
   return (
-    <div className="App">
+    <div className='App'>
       <Header />
-      <img className="bottom-space" src={homeImage} />
+      {/* <Minter /> */}
+
       <Footer />
     </div>
   );
